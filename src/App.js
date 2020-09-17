@@ -13,8 +13,11 @@ import MagicBox from "./components/MagicBox";
 import Hero from "./components/Hero";
 
 function App() {
+    console.log('met')
     const [count, setCount] = useState(0);
+    console.log('test 1')
 
+    console.log('test 2')
     const handleHeroClick = () => {
 
     };
