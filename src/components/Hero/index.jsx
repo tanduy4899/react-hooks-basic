@@ -12,6 +12,7 @@ Hero.defaultProps = {
 function Hero(props) {
     const {name} = props;
     console.log(`sdsdds ${name}`);
+    console.log('teset 2')
     return (
         <div>
             Hero name: {name}
